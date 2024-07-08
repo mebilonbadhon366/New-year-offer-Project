@@ -247,3 +247,66 @@
     color: rgba(7,2,17,0.6);
     margin-bottom: 30px;
 }
+/* What is Functional */
+.what-Functional{
+    width: 1120px;
+    height: 800px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 100px;
+    position: relative;
+}
+.what-functional-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.what-functional-content h3{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 40px;
+
+}
+.what-functional-content h1{
+    font-size: 50px;
+    font-weight: 900;
+    font-family: "Merriweather", serif;
+    margin-bottom: 30px;
+
+}
+.what-functional-content span{
+     color:rgb(255, 0, 0)
+}
+.what-functional-content p{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(7,2,17,0.6);
+    margin-left: 80px;
+    margin-bottom: 40px;
+
+
+}
+.solid-color{
+    width: 1120px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    top: 80%;
+}
+.gift-box{
+    display: flex;
+}
+.gift-box img{
+    width: 670px;
+    height: 570px;
+    position: relative;
+    z-index: 1;
+    
+}
+.discount img{
+    width: 300px;
+    height: 300px;
+    top: 20%;
+}
