@@ -74,7 +74,7 @@
 .section-image{
     width: fit-content;
     margin-top: 50px;
-    border: 2px solid black;
+    border: 2px dashed black;
 }
 /* Midnight party section styles */
 .midnight-party{
@@ -251,7 +251,7 @@
 .what-Functional{
     width: 1120px;
     height: 800px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0 auto;
     margin-top: 100px;
     position: relative;
@@ -314,7 +314,7 @@
 .portfolio-container{
     width: 1120px;
     height: 955px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0 auto;
     margin-top: 100px;
 }
@@ -353,7 +353,7 @@
 .newsletter{
     width: 1120px;
     height: 600px;
-    border: 2px solid red ;
+    /* border: 2px solid red ; */
     margin: 0 auto;
     margin-top: 100px;
     background-color: rgba(255, 0, 0, 0.05);
@@ -395,5 +395,57 @@
     color: white;
     background-color: rgb(255, 0, 0);
     border: none;
-    border-radius: 0px 50px 50px 0px;;
+    border-radius: 0px 50px 50px 0px;
+}
+
+/* Website Footer  */
+footer{
+    width: 1320px;
+    height: 609px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    background-color:  rgb(7, 2, 17);
+    color: white;
+    margin-top: 100px;
+}
+.footer-text-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px;
+}
+.footer-text-1,.footer-text-2{
+    font-weight: 500px;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+
+}
+.footer-text-position{
+    display: flex;
+}
+.hr{
+    border: 1px dashed white;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+}
+.footer-icons{
+    /* width: 60px; */
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 20px;
+
+}
+.footer-last-text{
+    font-weight: 500px;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
 }
